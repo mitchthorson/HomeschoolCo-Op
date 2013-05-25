@@ -1,0 +1,2 @@
+[23-May-2013 16:39:25] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'localhost/codes' (25) in /home/mthorson/public_html/homeschoolco-op/codes/admin/header.php on line 3
+[23-May-2013 16:41:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'localhost_codes' (25) in /home/mthorson/public_html/homeschoolco-op/codes/admin/header.php on line 3
