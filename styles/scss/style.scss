@@ -1,0 +1,64 @@
+html{
+	background-color: #dfdfdf;
+	color: #000;
+	font-size: 1.3em;
+	font-family: "ff-meta-serif-web-pro",serif;
+}
+#wrapper {
+	width: 75%;
+	margin: 0 auto;
+	
+}
+
+header {
+	border-bottom: 2px #000 solid;
+	padding-bottom: 1em;
+}
+
+#logo {
+	width: 3em;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "proxima-nova",sans-serif;
+	
+	
+}
+
+#admin-login{
+	display: none;
+}
+
+#dcode{
+	width: 33%;
+	height: 1.75em;
+	box-shadow: 3px ;
+}
+
+input {
+	font-weight: bold;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #808080;
+	padding-left: .5em;
+}
+
+#submit {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: .5em;
+	width: 10em;
+	border-radius: 6px;
+}
+
+#submit:hover {
+	background-color: #fff;
+	color: #000;
+}

@@ -19,13 +19,13 @@
   
   <center><form id="form1" name="form1" method="GET" action="download.php">
     
-    <input id="dcode" name="code" type="text" value="download code" /><center>
+    <input id="dcode" name="code" type="text" value="insert code" /><center>
     
   
     
   </p>
     <p>
-      <input type="submit" text="download"/>
+      <input id="submit" type="submit" value="download" text="download"/>
 </p>
   </form>
 
