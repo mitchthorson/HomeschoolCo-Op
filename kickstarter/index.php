@@ -8,27 +8,28 @@
 </head>
 
 <body>
-<div align="center">
-<div id="wrapper"><h1>Homeschool Co-op</h1></center>
-  <p>Thanks for purchasing the album! We're pleased to provide you with a high-quality MP3 download of the album. Feel free to put this on your iPod, PC, whatever. Of course, the vinyl will always sound better, we know. <br />ENTER DOWNLOAD CODE BELOW!</p>
-  <p>To test this, try entering these codes- they should all do different things.
-  <b><br>4203116969<br>
-  1102AOIXJYZ<br>
-  10IQ3S5248Z</b></p>
+   
+
+<div id="wrapper"><header><img id="logo" src="../images/logo.svg" />
+   
+   </header>
+   <h1>Homeschool Co-op</h1>
+  <p>Thanks for purchasing the album! We're pleased to provide you with a high-quality MP3 download of the album. Feel free to put this on your iPod, PC, whatever. Of course, the vinyl will always sound better, we know.</p>
+  
   <center><form id="form1" name="form1" method="GET" action="download.php">
-    code:
-    <input name="code" type="text" value="" /><center>
+    
+    <input id="dcode" name="code" type="text" value="download code" /><center>
     
   
     
   </p>
     <p>
-      <input type="submit" />
+      <input type="submit" text="download"/>
 </p>
   </form>
-</div>
+
  
- <table border="1">
+ <table id="admin-login" border="1">
  <tr><td>
  or <a href="admin/admin.php">check the admin options</a>
 </div>
