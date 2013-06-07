@@ -2,6 +2,7 @@ html{
 	background-color: #dfdfdf;
 	color: #000;
 	font-size: 1.3em;
+	font-family: "proxima-nova",sans-serif;
 }
 #wrapper {
 	width: 75%;
@@ -25,7 +26,7 @@ h1 {
 	font-size: 3em;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: helvetica, sans-serif;
+	
 	
 }
 
@@ -41,7 +42,6 @@ h1 {
 
 input {
 	font-weight: bold;
-	font-family: helvetica, sans-serif;
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #808080;

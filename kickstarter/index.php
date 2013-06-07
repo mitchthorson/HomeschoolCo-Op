@@ -3,7 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" type="text/css" href="../styles/style.css">
-
+<script type="text/javascript" src="//use.typekit.net/mfa0kpf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <title>Download the Album!</title>
 </head>
 
