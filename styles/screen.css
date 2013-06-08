@@ -1,3 +1,7 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 17, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -53,73 +57,3 @@ a img {
 /* line 116, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
-
-/* line 3, scss/style.scss */
-html {
-  background-color: #dfdfdf;
-  color: #fafafa;
-  font-size: 1.3em;
-  font-family: "ff-meta-serif-web-pro",serif;
-  background-image: url("../images/bg.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 21, scss/style.scss */
-#wrapper {
-  width: 75%;
-  margin: 0 auto;
-  background-color: rgba(200, 200, 200, 0.7);
-  height: 100%; }
-
-/* line 29, scss/style.scss */
-header {
-  border-bottom: 2px #000 solid;
-  padding-bottom: 1em; }
-
-/* line 34, scss/style.scss */
-#logo {
-  width: 3em;
-  margin: 0 auto 0 auto;
-  display: block; }
-
-/* line 40, scss/style.scss */
-h1 {
-  text-align: center;
-  font-size: 3em;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: "proxima-nova",sans-serif; }
-
-/* line 50, scss/style.scss */
-#admin-login {
-  display: none; }
-
-/* line 54, scss/style.scss */
-#dcode {
-  width: 33%;
-  height: 1.75em;
-  box-shadow: 3px; }
-
-/* line 60, scss/style.scss */
-input {
-  font-weight: bold;
-  font-size: 1em;
-  text-transform: uppercase;
-  color: #808080;
-  padding-left: .5em; }
-
-/* line 68, scss/style.scss */
-#submit {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: .5em;
-  width: 10em;
-  border-radius: 6px; }
-
-/* line 77, scss/style.scss */
-#submit:hover {
-  background-color: #fff;
-  color: #000; }

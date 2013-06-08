@@ -3,7 +3,7 @@
 if ($_GET['function'] != 'download'){
 echo "<html>
 <head>
-<link href='codes.css' rel='stylesheet' type='text/css' />
+<link href='../styles/style.css' rel='stylesheet' type='text/css' />
 </head>
 <body>
 <div align='center'>
