@@ -9,7 +9,8 @@ echo "<html>
 <div id='wrapper'><header><img id='logo' src='../images/logo-yellow.svg' />
 
 	</header>
-	<h1>Homeschool Co-op</h1>"};
+	<h1>Homeschool Co-op</h1>";
+}
 
 $code = $_GET['code']; 
 
