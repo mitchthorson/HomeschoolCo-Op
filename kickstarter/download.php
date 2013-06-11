@@ -6,7 +6,7 @@ echo "<html>
 <link href='../styles/style.css' rel='stylesheet' type='text/css' />
 </head>
 <body>
-<div id='wrapper"><header><img id='logo' src='../images/logo-yellow.svg' />
+<div id='wrapper'><header><img id='logo' src='../images/logo-yellow.svg' />
 
 	</header>
 	<h1>Homeschool Co-op</h1>;"
