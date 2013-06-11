@@ -6,9 +6,10 @@ echo "<html>
 <link href='../styles/style.css' rel='stylesheet' type='text/css' />
 </head>
 <body>
-<div align='center'>
+<div id="wrapper"><header><img id="logo" src="../images/logo-yellow.svg" />
 
-<table border='1' width='500' class='bubbly'>";
+	</header>
+	<h1>Homeschool Co-op</h1>;"
 }
 
 $code = $_GET['code']; 
