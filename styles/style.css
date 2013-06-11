@@ -88,18 +88,22 @@ h1 {
   font-family: "proxima-nova",sans-serif;
   margin-bottom: .25em; }
 
-/* line 47, scss/style.scss */
+/* line 46, scss/style.scss */
+.superlabel {
+  position: relative; }
+
+/* line 50, scss/style.scss */
 #admin-login {
   display: none; }
 
-/* line 51, scss/style.scss */
+/* line 54, scss/style.scss */
 #dcode {
   width: 33%;
   height: 1.75em;
   box-shadow: 3px;
   margin-top: 1em; }
 
-/* line 58, scss/style.scss */
+/* line 61, scss/style.scss */
 input {
   font-weight: bold;
   font-size: 1em;
@@ -107,7 +111,7 @@ input {
   color: #808080;
   padding-left: .5em; }
 
-/* line 66, scss/style.scss */
+/* line 69, scss/style.scss */
 #submit {
   background-color: #474747;
   color: #fff;
@@ -116,7 +120,7 @@ input {
   width: 10em;
   border-radius: 6px;
   margin-top: 1em; }
-  /* line 74, scss/style.scss */
+  /* line 77, scss/style.scss */
   #submit:hover {
     background-color: #FEE500;
     color: #000; }

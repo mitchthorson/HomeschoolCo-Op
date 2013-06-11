@@ -3,7 +3,10 @@
 if ($_GET['function'] != 'download'){
 echo "<html>
 <head>
-<link href='../styles/style.css' rel='stylesheet' type='text/css' />
+<link rel='stylesheet' type='text/css' href='../styles/style.css'>
+<script type='text/javascript' src='//use.typekit.net/mfa0kpf.js'></script>
+<script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
+<script type='text/javascript' src='../js/jquery.superLabels.min.js'></script>
 </head>
 <body>
 <div id='wrapper'><header><img id='logo' src='../images/logo-yellow.svg' />
