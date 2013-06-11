@@ -11,7 +11,7 @@
 <body>
    
 
-<div id="wrapper"><header><img id="logo" src="../images/logo.svg" />
+<div id="wrapper"><header><img id="logo" src="../images/logo-yellow.svg" />
    
    </header>
    <h1>Homeschool Co-op</h1>

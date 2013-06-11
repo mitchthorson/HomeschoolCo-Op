@@ -56,53 +56,50 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 3, scss/style.scss */
 html {
-  background-color: #dfdfdf;
-  color: #fafafa;
+  background-color: #dddddd;
+  color: #474747;
   font-size: 1.3em;
-  font-family: "ff-meta-serif-web-pro",serif;
-  background-image: url("../images/bg.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  font-family: "ff-meta-serif-web-pro",serif; }
 
-/* line 21, scss/style.scss */
+/* line 17, scss/style.scss */
 #wrapper {
   width: 75%;
   margin: 0 auto;
-  background-color: rgba(200, 200, 200, 0.7);
   height: 100%; }
 
-/* line 29, scss/style.scss */
+/* line 24, scss/style.scss */
 header {
-  border-bottom: 2px #000 solid;
-  padding-bottom: 1em; }
+  border-bottom: 2px #474747 solid;
+  padding-bottom: 1em;
+  margin-bottom: 1em; }
 
-/* line 34, scss/style.scss */
+/* line 30, scss/style.scss */
 #logo {
   width: 3em;
   margin: 0 auto 0 auto;
   display: block; }
 
-/* line 40, scss/style.scss */
+/* line 36, scss/style.scss */
 h1 {
   text-align: center;
   font-size: 3em;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "proxima-nova",sans-serif; }
+  font-family: "proxima-nova",sans-serif;
+  margin-bottom: .25em; }
 
-/* line 50, scss/style.scss */
+/* line 47, scss/style.scss */
 #admin-login {
   display: none; }
 
-/* line 54, scss/style.scss */
+/* line 51, scss/style.scss */
 #dcode {
   width: 33%;
   height: 1.75em;
-  box-shadow: 3px; }
+  box-shadow: 3px;
+  margin-top: 1em; }
 
-/* line 60, scss/style.scss */
+/* line 58, scss/style.scss */
 input {
   font-weight: bold;
   font-size: 1em;
@@ -110,16 +107,16 @@ input {
   color: #808080;
   padding-left: .5em; }
 
-/* line 68, scss/style.scss */
+/* line 66, scss/style.scss */
 #submit {
-  background-color: #000;
+  background-color: #474747;
   color: #fff;
   border: none;
   padding: .5em;
   width: 10em;
-  border-radius: 6px; }
-
-/* line 77, scss/style.scss */
-#submit:hover {
-  background-color: #fff;
-  color: #000; }
+  border-radius: 6px;
+  margin-top: 1em; }
+  /* line 74, scss/style.scss */
+  #submit:hover {
+    background-color: #FEE500;
+    color: #000; }

@@ -1,16 +1,12 @@
 @import "compass/reset";
 
 html {
-	background-color: #dfdfdf;
-	color: rgb(250, 250, 250);
+	background-color: #dddddd;
+	color: #474747;
 	font-size: 1.3em;
 	font-family: "ff-meta-serif-web-pro",serif;
-	background-image: url('../images/bg.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	
+		
 }
 
 body {
@@ -21,14 +17,14 @@ body {
 #wrapper {
 	width: 75%;
 	margin: 0 auto;
-	background-color: rgba(200, 200, 200, .7);
 	height: 100%;
 	
 }
 
 header {
-	border-bottom: 2px #000 solid;
+	border-bottom: 2px #474747 solid;
 	padding-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 #logo {
@@ -43,6 +39,7 @@ h1 {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: "proxima-nova",sans-serif;
+	margin-bottom: .25em;
 	
 	
 }
@@ -54,7 +51,8 @@ h1 {
 #dcode{
 	width: 33%;
 	height: 1.75em;
-	box-shadow: 3px ;
+	box-shadow: 3px;
+	margin-top: 1em;
 }
 
 input {
@@ -66,15 +64,19 @@ input {
 }
 
 #submit {
-	background-color: #000;
+	background-color: #474747;
 	color: #fff;
 	border: none;
 	padding: .5em;
 	width: 10em;
 	border-radius: 6px;
+	margin-top: 1em;
+	&:hover{
+		background-color: #FEE500;
+		color: #000;
+	}
 }
 
 #submit:hover {
-	background-color: #fff;
-	color: #000;
+	
 }
