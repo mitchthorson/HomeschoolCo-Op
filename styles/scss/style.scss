@@ -1,8 +1,8 @@
 @import "compass/reset";
 
 html {
-	background-color: #dddddd;
-	color: #474747;
+	background-color: #000;
+	color: #fff;
 	font-size: 1.3em;
 	font-family: "ff-meta-serif-web-pro",serif;
 	
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-	border-bottom: 2px #474747 solid;
+	margin-top: 1em;
 	padding-bottom: 1em;
 	margin-bottom: 1em;
 }

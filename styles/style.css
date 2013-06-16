@@ -56,8 +56,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 3, scss/style.scss */
 html {
-  background-color: #dddddd;
-  color: #474747;
+  background-color: #000;
+  color: #fff;
   font-size: 1.3em;
   font-family: "ff-meta-serif-web-pro",serif; }
 
@@ -69,7 +69,7 @@ html {
 
 /* line 24, scss/style.scss */
 header {
-  border-bottom: 2px #474747 solid;
+  margin-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 1em; }
 
