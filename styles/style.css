@@ -56,7 +56,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 3, scss/style.scss */
 html {
-  background-color: #000;
+  background-image: url(http://subtlepatterns.com/patterns/grey_wash_wall.png);
   color: #fff;
   font-size: 1.3em;
   font-family: "ff-meta-serif-web-pro",serif; }
@@ -88,22 +88,26 @@ h1 {
   font-family: "proxima-nova",sans-serif;
   margin-bottom: .25em; }
 
-/* line 46, scss/style.scss */
+/* line 45, scss/style.scss */
+h2 {
+  text-align: center; }
+
+/* line 48, scss/style.scss */
 .superlabel {
   position: relative; }
 
-/* line 50, scss/style.scss */
+/* line 52, scss/style.scss */
 #admin-login {
   display: none; }
 
-/* line 54, scss/style.scss */
+/* line 56, scss/style.scss */
 #dcode {
   width: 33%;
   height: 1.75em;
   box-shadow: 3px;
   margin-top: 1em; }
 
-/* line 61, scss/style.scss */
+/* line 63, scss/style.scss */
 input {
   font-weight: bold;
   font-size: 1em;
@@ -111,7 +115,7 @@ input {
   color: #808080;
   padding-left: .5em; }
 
-/* line 69, scss/style.scss */
+/* line 71, scss/style.scss */
 #submit {
   background-color: #474747;
   color: #fff;
@@ -120,7 +124,7 @@ input {
   width: 10em;
   border-radius: 6px;
   margin-top: 1em; }
-  /* line 77, scss/style.scss */
+  /* line 79, scss/style.scss */
   #submit:hover {
     background-color: #FEE500;
     color: #000; }

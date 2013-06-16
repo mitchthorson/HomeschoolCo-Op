@@ -1,7 +1,7 @@
 @import "compass/reset";
 
 html {
-	background-color: #000;
+	background-image: url(http://subtlepatterns.com/patterns/grey_wash_wall.png);
 	color: #fff;
 	font-size: 1.3em;
 	font-family: "ff-meta-serif-web-pro",serif;
@@ -40,8 +40,10 @@ h1 {
 	font-weight: bold;
 	font-family: "proxima-nova",sans-serif;
 	margin-bottom: .25em;
-	
-	
+}
+
+h2 {
+	text-align: center;
 }
 .superlabel {
 	position: relative;
