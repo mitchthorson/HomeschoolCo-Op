@@ -4,13 +4,20 @@
 @import "gallery.theme.scss";
 
 $dark-gray: #2e2e2e;
+$yellow: #ffe10e;
+$blue: #2caaff;
+$margin: 2em;
+$papa-bear: 1200px;
+$mama-bear: 600px;
+$baby-bear: 400px;
+
 
 //Big Picture Stuff
 html {
-	background-image: url(http://subtlepatterns.com/patterns/grey_wash_wall.png);
-	color: #fff;
+	
+	color: $dark-gray;
 	font-size: 1.3em;
-	font-family: "ff-meta-serif-web-pro",serif;		
+	font-family: "proxima-nova",sans-serif;
 }
 
 img {
@@ -35,11 +42,15 @@ header {
 	height: 1.8em;
 	display: block;
 	position: fixed;
+	
 	@include box-shadow(black 2px 2px 10px);
 	.header_stuff{
 		width:80%;
 		margin: 0 auto;
 		
+	}
+	@media screen and (max-width: $papa-bear){
+		height: 3em;
 	}
 }
 
@@ -47,20 +58,34 @@ header {
 	width: 1.25em;
 	float: left;
 	display: block;
+	@media screen and (max-width: $papa-bear){
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 nav{
 	float: right;
 	margin-top: 1em;
+	@media screen and (max-width: $papa-bear){
+		float: none;
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
+	}
 	li{
 		display: inline-block;
 		padding-left: 1em;
-		font-weight: 700;
-		font-family: "proxima-nova",sans-serif;
+		
+		font-style: italic;
 		text-transform: uppercase;
+		
 		a {
+			font-weight: 100;
 			color: #fff;
 			text-decoration: none;
+			border-bottom: 2px #fff solid;
 		}
 	}
 }
@@ -71,6 +96,11 @@ nav{
 	font-weight: 700;
 	margin-left: 2em;
 	margin-top: 1em;
+	color: #fff;
+	font-style: italic;
+	@media screen and (max-width: $papa-bear){
+		display: none;
+	}
 }
 
 
@@ -81,7 +111,7 @@ h1 {
 	font-size: 3em;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: "proxima-nova",sans-serif;
+	
 	margin-bottom: .25em;
 	line-height: 1.2em;
 }
@@ -94,63 +124,109 @@ h2 {
 
 h3{
 	font-size: 1.5em;
+	font-weight: 100;
+	
 }
 
 h4{
 	font-size: 1.2em;
 }
 
-.section_title{
-	font-family: "proxima-nova",sans-serif;
-	text-transform: uppercase;
-	color: #2b2b2b;
-	font-weight: 100;
-	
+strong {
+	font-weight: 700;
 	
 }
+
+
 
 //Hero Image
 
 #hero{
 	@include box-shadow(black 2px 2px 10px inset);
+	background: url('../images/image-1.jpeg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 12em;
+	height: 18em;
+	h2{
+		font-size: 2.5em;
+		font-weight: 700;
+		text-align: left;
+		color: #fff;
+		width: 60%;
+		margin-left: 10%;
+		text-shadow: 1px 1px 10px $dark-gray;
+		
+	}
 	
 	img{
 		position: relative;
 		margin-top: 3em;
 		z-index: -1;
 		width: 100%;
+		height: auto;
+		vertical-align: top;
 	}
+}
+
+.blue{
+	color: $blue;
+}
+
+.yellow{
+	color: $yellow;
 }
 
 //Listen Section
 
 section{
-	margin-top: -10px;
+	margin-top: 2em;
 	padding-top: 2em;
-	padding-bottom: 2em;
-	background-image: url('../images/texture/wavegrid.png');
+	padding-bottom: 4em;
 	
+	
+		
+}
+
+hr{
+	height: 11px;
+	background-color: #e0e0e0;
+	//@include box-shadow($dark-gray 1px 2px 10px);
+	border: none;
 }
 
 .section_title{
-		width: 80%;
-		margin: 0 auto;
-		border-bottom: 1px #000 solid;
+		
+		text-transform: uppercase;
+		border: 4px $dark-gray solid;
+		font-weight: 100;
+		width: 20%;
+		margin: 0 auto 2em auto;
 		font-weight: 700;
 		font-style: italic;
 	
 }
 
 #listen{
-	@include box-shadow(black 8px 0px 20px);
+	//@include box-shadow(black 8px 0px 20px);
+	margin-top: -10px;
 }
 
 #stream{
 	width: 80%;
 	margin: 1em auto 0 auto;
 	
+	
 }
 //Shop
+
+#shop{
+	background-color: $yellow;
+	border-top: 12px #e0e0e0 solid;
+	border-bottom: 12px #e0e0e0 solid;
+}
 
 #products{
 	margin-left: 10%;
@@ -166,6 +242,7 @@ section{
 .product_img{
 	width: 60%;
 	float: left;
+	@include box-shadow($dark-gray 2px 2px 10px);
 
 }
 
@@ -188,11 +265,34 @@ section{
 	padding-bottom: .75em;
 	@include box-shadow(black 2px 2px 10px);
 	a{
-		font-family: "proxima-nova",sans-serif;
+		
 		text-align: center;
 		color: #fff;
 		text-decoration: none;
 		text-transform: uppercase;
+	}
+}
+
+//download section
+#download{
+	background-color: $yellow;
+	border-top: 12px #e0e0e0 solid;
+	border-bottom: 12px #e0e0e0 solid;
+	text-align: center;
+	.download_button{
+		width: 10%;
+		margin: 2em auto;
+		background-color: $dark-gray;
+		padding: 1em;
+		@include box-shadow(black 2px 2px 10px);
+		a{
+			
+			text-align: center;
+			color: #fff;
+			text-decoration: none;
+			text-transform: uppercase;
+
+		}
 	}
 }
 
