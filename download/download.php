@@ -4,15 +4,20 @@ if ($_GET['function'] != 'download'){
 echo "<html>
 <head>
 <link rel='stylesheet' type='text/css' href='../styles/style.css'>
+<meta name='viewport' content='width=device-width,minimum-scale=1.0,initial-scale=1,'>
 <script type='text/javascript' src='//use.typekit.net/mfa0kpf.js'></script>
 <script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
 <script type='text/javascript' src='../js/jquery.superLabels.min.js'></script>
 </head>
-<body>
-<div id='wrapper'><header><img id='logo' src='../images/logo-yellow.svg' />
+<body id='download_page'>
+<div id='wrapper'><header>
+	<div class='header_stuff'>
 
+	<img id='logo' src='../images/logo-yellow.svg' />
+	<h1 id='name'>Homeschool Co-op</h1>
+	</div>
 	</header>
-	<h1>Homeschool Co-op</h1>";
+	<h1>Homeschool Co-op</h1><div id='dload_content'>";
 }
 
 $code = $_GET['code']; 
@@ -31,23 +36,23 @@ $result = mysql_num_rows($sql);
 
 
 if($result == 0 ) {
-    echo "<tr><td><h1><center>SORRY!</center></h1>" . $code . " is not a valid code. Have you purchased the album yet? Head over to  <a href='http://vinylcollective.com'>Vinyl Collective</a> to get your copy!<p>";
+    echo "<h1><center>SORRY!</center></h1>" . $code . "<h3>is not a valid code. Have you purchased the album yet? Head over to  <a href='http://homeschoolco-op.me'>our store</a> to get your copy!</h3></div>";
 }
 
 if($result != 0){
-    echo "<tr><td>" . $code . " is a valid code..<p>";
+    echo "<h3>" . $code . " is a valid code..";
 } 
 
 //check for remaining downloads
 while($row = mysql_fetch_array($sql))
 	{
-	echo "Code " . $code . " has " . $row['downloadsRemaining'] . " downloads remaining.<p> ";
+	echo "Code " . $code . " has " . $row['downloadsRemaining'] . " downloads remaining.</h3>";
 	if($row['downloadsRemaining'] > 0){
-		echo "Thanks for taking the time to check out our album/demo/whatever. To view our onesheet, hear more audio, or check out our current tour schedule, check our main website. <br><br>Click the button below to begin your download. Choose 'Save As' when given the menu, and save the file to somewhere you'll remember (like your desktop).
-		<form action='download.php?function=download&code=$code' method='POST'><input name='download' type='submit' value='download' /></form><p>";
+		echo "<h3>Thanks for taking the time to check out our album. We hope you enjoy it.</h3> <h3>Click to download below, or save this exact page to download later.</p></h3>
+		<form action='download.php?function=download&code=$code' method='POST'><input class='download_button' name='download' type='submit' value='download' /></form><p></div>";
 		}
 	elseif($row['downloadsRemaining'] == 0){
-		echo "Sorry, you don't have any more available downloads!<p>";
+		echo "Sorry, you don't have any more available downloads!</h3></div>";
 		}
 	}
 }

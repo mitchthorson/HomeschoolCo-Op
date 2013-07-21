@@ -378,6 +378,41 @@ hr{
 	}
 }
 
+//download page styles
+
+#download_page{
+	background-image: url('../images/image-blur.jpg');
+	#wrapper{
+		background-color: rgba(255,255,255,0.5);
+		padding-bottom: 3em;
+		@include box-shadow(black 2px 2px 10px);
+		h3{
+			//font-weight: 700;
+		}
+	}
+}
+
+#dload_content{
+	padding-top: 6em;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	@media (max-width: $papa-bear){
+		padding-top: 8em;
+	}
+	@media (max-width: $mama-bear){
+		width: 80%;
+		
+	}
+	@media (max-width: $baby-bear){
+		width: 90%;
+		input#submit {
+			width: 30%;
+		}
+	}
+	
+}
+
 //Super Label Forms
 .superlabel {
 	position: relative;
@@ -399,23 +434,54 @@ input {
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #808080;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
 	padding-left: .5em;
 }
 
-#submit {
-	background-color: #474747;
+input#submit {
+	display: block;
+	width: 30%;
+	margin: 2em auto;
+	background-color: $dark-gray;
+	padding: 1em;
+	text-align: center;
+	text-align: center;
 	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
 	border: none;
-	padding: .5em;
-	width: 10em;
-	border-radius: 6px;
-	margin-top: 1em;
-	&:hover{
-		background-color: #FEE500;
-		color: #000;
-	}
-}
-
+	cursor: pointer;
+	@include box-shadow(black 2px 2px 10px);
+		@media (max-width: $baby-bear){
+			width: 20%;
+			margin: 0 auto;
+			display: block;
+			margin-top: 1em;
+		}
+			}
 #submit:hover {
 	
 }
+
+input.download_button {
+display: block;
+width: 30%;
+margin: 2em auto;
+background-color: $dark-gray;
+padding: 1em;
+text-align: center;
+text-align: center;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+border: none;
+@include box-shadow(black 2px 2px 10px);
+	@media (max-width: $baby-bear){
+		width: 20%;
+		margin: 0 auto;
+		display: block;
+		margin-top: 1em;
+	}
+		}
