@@ -17,7 +17,7 @@ echo "<html>
 	<h1 id='name'>Homeschool Co-op</h1>
 	</div>
 	</header>
-	<h1>Homeschool Co-op</h1><div id='dload_content'>";
+	<div id='dload_content'>";
 }
 
 $code = $_GET['code']; 
