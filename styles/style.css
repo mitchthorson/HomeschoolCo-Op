@@ -873,6 +873,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 8, scss/style.scss */
 html {
+  height: 100%;
   color: #2e2e2e;
   font-size: 1.3em;
   font-family: "proxima-nova",sans-serif; }
@@ -1234,53 +1235,58 @@ hr {
 
 /* line 383, scss/style.scss */
 #download_page {
-  background-image: url("../images/image-blur.jpg"); }
-  /* line 385, scss/style.scss */
+  background-image: url("../images/image-blur.jpg");
+  background-size: cover;
+  height: 100%; }
+  /* line 387, scss/style.scss */
   #download_page #wrapper {
     background-color: rgba(255, 255, 255, 0.5);
     padding-bottom: 3em;
     -webkit-box-shadow: black 2px 2px 10px;
     -moz-box-shadow: black 2px 2px 10px;
     box-shadow: black 2px 2px 10px; }
+    /* line 393, scss/style.scss */
+    #download_page #wrapper h3 a {
+      color: #2e2e2e; }
 
-/* line 395, scss/style.scss */
+/* line 400, scss/style.scss */
 #dload_content {
   padding-top: 6em;
   width: 60%;
   margin: 0 auto;
   text-align: center; }
   @media (max-width: 1200px) {
-    /* line 395, scss/style.scss */
+    /* line 400, scss/style.scss */
     #dload_content {
       padding-top: 8em; } }
   @media (max-width: 900px) {
-    /* line 395, scss/style.scss */
+    /* line 400, scss/style.scss */
     #dload_content {
       width: 80%; } }
   @media (max-width: 560px) {
-    /* line 395, scss/style.scss */
+    /* line 400, scss/style.scss */
     #dload_content {
       width: 90%; }
-      /* line 409, scss/style.scss */
+      /* line 414, scss/style.scss */
       #dload_content input#submit {
         width: 30%; } }
 
-/* line 417, scss/style.scss */
+/* line 422, scss/style.scss */
 .superlabel {
   position: relative; }
 
-/* line 421, scss/style.scss */
+/* line 426, scss/style.scss */
 #admin-login {
   display: none; }
 
-/* line 425, scss/style.scss */
+/* line 430, scss/style.scss */
 #dcode {
   width: 33%;
   height: 1.75em;
   box-shadow: 3px;
   margin-top: 1em; }
 
-/* line 432, scss/style.scss */
+/* line 437, scss/style.scss */
 input {
   font-weight: bold;
   font-size: 1em;
@@ -1291,7 +1297,7 @@ input {
   margin: 0 auto;
   padding-left: .5em; }
 
-/* line 443, scss/style.scss */
+/* line 448, scss/style.scss */
 input#submit {
   display: block;
   width: 30%;
@@ -1309,14 +1315,14 @@ input#submit {
   -moz-box-shadow: black 2px 2px 10px;
   box-shadow: black 2px 2px 10px; }
   @media (max-width: 560px) {
-    /* line 443, scss/style.scss */
+    /* line 448, scss/style.scss */
     input#submit {
       width: 20%;
       margin: 0 auto;
       display: block;
       margin-top: 1em; } }
 
-/* line 468, scss/style.scss */
+/* line 473, scss/style.scss */
 input.download_button {
   display: block;
   width: 30%;
@@ -1333,7 +1339,7 @@ input.download_button {
   -moz-box-shadow: black 2px 2px 10px;
   box-shadow: black 2px 2px 10px; }
   @media (max-width: 560px) {
-    /* line 468, scss/style.scss */
+    /* line 473, scss/style.scss */
     input.download_button {
       width: 20%;
       margin: 0 auto;

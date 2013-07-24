@@ -36,23 +36,23 @@ $result = mysql_num_rows($sql);
 
 
 if($result == 0 ) {
-    echo "<h1><center>SORRY!</center></h1>" . $code . "<h3>is not a valid code. Have you purchased the album yet? Head over to  <a href='http://homeschoolco-op.me'>our store</a> to get your copy!</h3></div>";
+    echo "<h1><center>Oops!</center></h1>" . $code . "<h3>is not a valid code. Head over  <a href='../download/'>here</a> to try again!</h3></div>";
 }
 
 if($result != 0){
-    echo "<h3>" . $code . " is a valid code..";
+    echo "<h3>" . $code . " is a valid code.";
 } 
 
 //check for remaining downloads
 while($row = mysql_fetch_array($sql))
 	{
-	echo "Code " . $code . " has " . $row['downloadsRemaining'] . " downloads remaining.</h3>";
+	echo "You can download the album " . $row['downloadsRemaining'] . " more times.</h3>";
 	if($row['downloadsRemaining'] > 0){
 		echo "<h3>Thanks for taking the time to check out our album. We hope you enjoy it.</h3> <h3>Click to download below, or save this exact page to download later.</p></h3>
 		<form action='download.php?function=download&code=$code' method='POST'><input class='download_button' name='download' type='submit' value='download' /></form><p></div>";
 		}
 	elseif($row['downloadsRemaining'] == 0){
-		echo "Sorry, you don't have any more available downloads!</h3></div>";
+		echo "<h2>Sorry, you don't have any more available downloads!</h2></div>";
 		}
 	}
 }
@@ -69,7 +69,7 @@ $result = mysql_query("$sql");
 
 
 $dir="files/";
-$filename="albumTitle.zip";
+$filename="Homeschool_CoOp.zip";
     $file=$dir.$filename;
     header("Content-type: application/zip");
     header("Content-Transfer-Encoding: Binary");
