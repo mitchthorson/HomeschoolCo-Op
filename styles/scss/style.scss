@@ -19,8 +19,7 @@ html {
 	@media (max-width: $baby-bear){
 		font-size: .7em;
 	}
-	background-image: url('../images/image-blur.jpg');
-	background-size: cover;
+	background-color: $dark-gray;
 	height: 100%;
 }
 
