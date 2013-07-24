@@ -19,6 +19,9 @@ html {
 	@media (max-width: $baby-bear){
 		font-size: .7em;
 	}
+	background-image: url('../images/image-blur.jpg');
+	background-size: cover;
+	height: 100%;
 }
 
 img {
@@ -31,6 +34,7 @@ img {
 #wrapper {
 	margin: 0 auto;
 	height: 100%;	
+	background-color: rgba(255,255,255,0.5);
 }
 
 //Header
@@ -168,6 +172,11 @@ strong {
 		text-shadow: 1px 1px 10px $dark-gray;
 		
 	}
+	#coming_soon{
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
 	
 	img{
 		position: relative;
@@ -190,7 +199,7 @@ strong {
 //Listen Section
 
 section{
-	margin-top: 2em;
+	margin-top: 0em;
 	padding-top: 2em;
 	padding-bottom: 4em;
 	
@@ -208,7 +217,7 @@ hr{
 .section_title{
 		
 		text-transform: uppercase;
-		border: 4px $dark-gray solid;
+		border: 4px #fff solid;
 		font-weight: 100;
 		width: 20%;
 		margin: 0 auto 2em auto;
@@ -350,15 +359,17 @@ hr{
 
 //download section
 #download{
-	background-color: $yellow;
+	color: #fff;
+	background-color: $dark-gray;
 	border-top: 12px #e0e0e0 solid;
 	border-bottom: 12px #e0e0e0 solid;
 	text-align: center;
 	.download_button{
 		width: 10%;
 		margin: 2em auto;
-		background-color: $dark-gray;
+		background-color: #e0e0e0;
 		padding: 1em;
+		
 		text-align: center;
 		@include box-shadow(black 2px 2px 10px);
 		@media (max-width: $baby-bear){
@@ -370,7 +381,7 @@ hr{
 		a{
 			
 			text-align: center;
-			color: #fff;
+			color: $dark-gray;
 			text-decoration: none;
 			text-transform: uppercase;
 
