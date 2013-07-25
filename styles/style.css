@@ -1246,56 +1246,65 @@ hr {
 #download_page {
   background-image: url("../images/image-blur.jpg");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
   height: 100%; }
-  /* line 397, scss/style.scss */
+  /* line 401, scss/style.scss */
   #download_page #wrapper {
     background-color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 3em;
     -webkit-box-shadow: black 2px 2px 10px;
     -moz-box-shadow: black 2px 2px 10px;
     box-shadow: black 2px 2px 10px; }
-    /* line 403, scss/style.scss */
+    /* line 407, scss/style.scss */
     #download_page #wrapper h3 a {
       color: #2e2e2e; }
 
-/* line 410, scss/style.scss */
+/* line 414, scss/style.scss */
 #dload_content {
   padding-top: 6em;
   width: 60%;
   margin: 0 auto;
   text-align: center; }
   @media (max-width: 1200px) {
-    /* line 410, scss/style.scss */
+    /* line 414, scss/style.scss */
     #dload_content {
       padding-top: 8em; } }
   @media (max-width: 900px) {
-    /* line 410, scss/style.scss */
+    /* line 414, scss/style.scss */
     #dload_content {
       width: 80%; } }
   @media (max-width: 560px) {
-    /* line 410, scss/style.scss */
+    /* line 414, scss/style.scss */
     #dload_content {
-      width: 90%; }
-      /* line 424, scss/style.scss */
-      #dload_content input#submit {
-        width: 30%; } }
+      width: 90%;
+      text-align: left; }
+      /* line 428, scss/style.scss */
+      #dload_content input.download_button {
+        width: 40%; }
+      /* line 432, scss/style.scss */
+      #dload_content h3 {
+        font-size: 1.8em;
+        line-height: 1.2;
+        margin-top: .3em; } }
 
-/* line 432, scss/style.scss */
+/* line 443, scss/style.scss */
 .superlabel {
   position: relative; }
 
-/* line 436, scss/style.scss */
+/* line 447, scss/style.scss */
 #admin-login {
   display: none; }
 
-/* line 440, scss/style.scss */
+/* line 451, scss/style.scss */
 #dcode {
   width: 33%;
   height: 1.75em;
   box-shadow: 3px;
   margin-top: 1em; }
 
-/* line 447, scss/style.scss */
+/* line 458, scss/style.scss */
 input {
   font-weight: bold;
   font-size: 1em;
@@ -1306,7 +1315,7 @@ input {
   margin: 0 auto;
   padding-left: .5em; }
 
-/* line 458, scss/style.scss */
+/* line 469, scss/style.scss */
 input#submit {
   display: block;
   width: 30%;
@@ -1324,14 +1333,14 @@ input#submit {
   -moz-box-shadow: black 2px 2px 10px;
   box-shadow: black 2px 2px 10px; }
   @media (max-width: 560px) {
-    /* line 458, scss/style.scss */
+    /* line 469, scss/style.scss */
     input#submit {
       width: 20%;
       margin: 0 auto;
       display: block;
       margin-top: 1em; } }
 
-/* line 483, scss/style.scss */
+/* line 494, scss/style.scss */
 input.download_button {
   display: block;
   width: 30%;
@@ -1348,7 +1357,7 @@ input.download_button {
   -moz-box-shadow: black 2px 2px 10px;
   box-shadow: black 2px 2px 10px; }
   @media (max-width: 560px) {
-    /* line 483, scss/style.scss */
+    /* line 494, scss/style.scss */
     input.download_button {
       width: 20%;
       margin: 0 auto;

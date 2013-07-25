@@ -15,7 +15,7 @@
 
 <div id='wrapper'><header>
    <div class="header_stuff">
-    <a href='/homeschoolco-op'>  
+    <a href='/'>  
    <img id='logo' src='../images/logo-yellow.svg' />
    <h1 id="name">Homeschool Co-op</h1>
 </a>
