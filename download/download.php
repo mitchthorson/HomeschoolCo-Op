@@ -12,9 +12,10 @@ echo "<html>
 <body id='download_page'>
 <div id='wrapper'><header>
 	<div class='header_stuff'>
-
+	<a href='/'>
 	<img id='logo' src='../images/logo-yellow.svg' />
 	<h1 id='name'>Homeschool Co-op</h1>
+	</a>
 	</div>
 	</header>
 	<div id='dload_content'>";
@@ -46,9 +47,9 @@ if($result != 0){
 //check for remaining downloads
 while($row = mysql_fetch_array($sql))
 	{
-	echo "You can download the album " . $row['downloadsRemaining'] . " more times.</h3>";
+	echo "You can download the album up to " . $row['downloadsRemaining'] . " more times.</h3>";
 	if($row['downloadsRemaining'] > 0){
-		echo "<h3>Thanks for taking the time to check out our album. We hope you enjoy it.</h3> <h3>Click to download below, or save this exact page to download later.</p></h3>
+		echo "<h3>Click to download below, or save this exact page to download later.</p></h3><p class='mobile-instuctions'>Unfortunately, downloading isn't supported on mobile devices, so you'll want to save this exact page and try from a computer!</p>
 		<form action='download.php?function=download&code=$code' method='POST'><input class='download_button' name='download' type='submit' value='download' /></form><p></div>";
 		}
 	elseif($row['downloadsRemaining'] == 0){

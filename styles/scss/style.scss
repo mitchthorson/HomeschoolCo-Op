@@ -416,6 +416,13 @@ hr{
 	width: 60%;
 	margin: 0 auto;
 	text-align: center;
+	h3{
+		margin-bottom: .5em;
+	}
+	p.mobile-instuctions{
+		font-size: .8em;
+		
+	}
 	@media (max-width: $papa-bear){
 		padding-top: 8em;
 	}
