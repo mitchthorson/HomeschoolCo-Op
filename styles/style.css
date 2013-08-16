@@ -1341,7 +1341,7 @@ input#submit {
   @media (max-width: 560px) {
     /* line 476, scss/style.scss */
     input#submit {
-      width: 20%;
+      width: 40%;
       margin: 0 auto;
       display: block;
       margin-top: 1em; } }
