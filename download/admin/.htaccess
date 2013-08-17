@@ -1,5 +1,0 @@
-DirectoryIndex admin.php
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile /Applications/MAMP/htdocs/homeschoolco-op/download/admin/.htpasswd  
-require valid-user
