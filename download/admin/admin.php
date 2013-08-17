@@ -25,7 +25,7 @@ echo "
 
 while($row = mysql_fetch_array($result))
   {
-  echo "<tr><td>" . $row['downloadCode'] . " </td><td align='right'> " . $row['downloadsRemaining'] . "</td><td>" . $row['timeCreated'] . "</td><td><a href='http://mynameisneil.com/projects/codes2/download.php?code=" . $row['downloadCode'] ."'>http://mynameisneil.com/projects/codes2/download.php?code=" . $row['downloadCode'] ."</a></tr>";
+  echo "<tr><td>" . $row['downloadCode'] . " </td><td align='right'> " . $row['downloadsRemaining'] . "</td><td>" . $row['timeCreated'] . "</td><td><a href='http://homeschoolco-op.me/download/download.php?code=" . $row['downloadCode'] ."'>http://homeschoolco-op.me/download/download.php?code=" . $row['downloadCode'] ."</a></tr>";
   }
 }
 
