@@ -78,4 +78,15 @@ $filename="Homeschool_CoOp.zip";
     header("Content-disposition: attachment; filename=\"".basename($file)."\"");
     readfile("$file");
 }
+echo "<footer id='download_footer'>
+<div id='copyright'>
+<p>&copy;2013 Homeschool Co-op</p>
+</div>
+<div id='social'>
+<ul>
+<li><a href='https://twitter.com/homeschoolco_op' target='_blank'><img src='../images/twitter.svg' alt=''></a></li>
+<li><a href='https://www.facebook.com/pages/Homeschool-Co-op/324753347646507' target='_blank'><img src='../images/fbook.svg' alt=''></a></li>
+</ul>
+</div>
+</footer>"
 ?>
