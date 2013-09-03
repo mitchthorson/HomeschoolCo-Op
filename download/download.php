@@ -74,7 +74,7 @@ $result = mysql_query("$sql");
 
 
 $dir="files/";
-$filename="Homeschool_Co-Op.zip";
+$filename="Homeschool_Co_Op.zip";
     $file=$dir.$filename;
     header("Content-type: application/zip");
     header("Content-Transfer-Encoding: Binary");
