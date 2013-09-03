@@ -5,10 +5,10 @@ echo "<html>
 <head>
 <link rel='stylesheet' type='text/css' href='../styles/style.css'>
 <meta name='viewport' content='width=device-width,minimum-scale=1.0,initial-scale=1,'>
-<link rel='apple-touch-icon' href='images/apple-touch-57' />
-<link rel='apple-touch-icon' sizes='72x72' href='images/apple-touch-72' />
-<link rel='apple-touch-icon' sizes='114x11' href='images/apple-touch-114' />
-<link rel='apple-touch-icon' sizes='144x144' href='images/apple-touch-144' />
+<link rel='apple-touch-icon' href='images/apple-touch-57.png' />
+<link rel='apple-touch-icon' sizes='72x72' href='images/apple-touch-72.png' />
+<link rel='apple-touch-icon' sizes='114x11' href='images/apple-touch-114.png' />
+<link rel='apple-touch-icon' sizes='144x144' href='images/apple-touch-144.png' />
 <script type='text/javascript' src='//use.typekit.net/mfa0kpf.js'></script>
 <script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
 <script type='text/javascript' src='../js/jquery.superLabels.min.js'></script>

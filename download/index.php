@@ -2,10 +2,10 @@
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1' />
 <link rel='stylesheet' type='text/css' href='../styles/style.css'>
-<link rel='apple-touch-icon' href='images/apple-touch-57' />
-<link rel='apple-touch-icon' sizes='72x72' href='images/apple-touch-72' />
-<link rel='apple-touch-icon' sizes='114x11' href='images/apple-touch-114' />
-<link rel='apple-touch-icon' sizes='144x144' href='images/apple-touch-144' />
+<link rel='apple-touch-icon' href='images/apple-touch-57.png' />
+<link rel='apple-touch-icon' sizes='72x72' href='images/apple-touch-72.png' />
+<link rel='apple-touch-icon' sizes='114x11' href='images/apple-touch-114.png' />
+<link rel='apple-touch-icon' sizes='144x144' href='images/apple-touch-144.png' />
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,">
 <script type='text/javascript' src='//use.typekit.net/mfa0kpf.js'></script>
 <script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
