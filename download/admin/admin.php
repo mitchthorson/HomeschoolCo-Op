@@ -1,25 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Code Generation</title>
 
-<link rel='stylesheet' href='../../styles/admin.css'>
-<!--Loading Typekit-->
-<script type='text/javascript' src='//use.typekit.net/mfa0kpf.js'></script>
-<script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
-</head>
-
-<body class='download_admin'>
-<header id="bar">
-<div class="header_stuff">
-<a href='/'>
-<img id='logo' src='../../images/logo-yellow.svg' />
-<h1 id='name'>Homeschool Co-op</h1>
-</a>
-</div>
-</header>
-<div class='admin_wrap'>
 <?php 
 
 include('header.php'); 
@@ -78,9 +57,9 @@ echo "
 
 elseif ($_GET["function"] == 'generate'){
 ?>
-<div align="center">
-<table border="1">
-<tr><td>
+<div align="center" class='admin_generate'>
+
+
   <p>How many codes would you like to generate?</p>
   <form id="form1" name="form1" method="post" action="generator.php?function=generate">
     number of codes:
@@ -93,7 +72,7 @@ elseif ($_GET["function"] == 'generate'){
       <input type="submit" name="Submit" value="Submit" />
 </p>
   </form>
- </td></tr></table>
+
  
 
 </div>
@@ -101,9 +80,8 @@ elseif ($_GET["function"] == 'generate'){
 
 elseif ($_GET["function"] == 'custom'){
 ?>
-<div align="center">
-<table border="1">
-<tr><td>
+<div align="center" class="admin_custom">
+
   <p>You'd want to use this function to generate a single code you can use to identify who you're sending it to track how
   	if they've used it, how many times they've used it, etc). For example, if you were sending out a download link to 
   	a magazine, you could create the code MAXRNR to keep tabs on whether Maximum Rock n Roll checked your link out.
@@ -119,7 +97,7 @@ elseif ($_GET["function"] == 'custom'){
       <input type="submit" name="Submit" value="Submit" />
 </p>
   </form>
- </td></tr></table>
+
  
 
 </div>
