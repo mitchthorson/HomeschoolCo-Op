@@ -127,10 +127,7 @@ echo("Admin Options:
 <li><a href='?function=custom'>Create custom codes</a>
 <li><a href='?function=showall'>Show All Codes/Remaining Downloads</a>
 <li><a href='?function=print'>Print download coupons</a><p>
-
-
-
-Obviously, this page would be password-protected, and the link wouldn't be visible from the main page :)");
+");
 }
 
 ?>
