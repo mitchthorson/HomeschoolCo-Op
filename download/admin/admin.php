@@ -3,9 +3,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Code Generation</title>
+
+<link rel='stylesheet' href='../../styles/admin.css'>
+<!--Loading Typekit-->
+<script type='text/javascript' src='//use.typekit.net/mfa0kpf.js'></script>
+<script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
 </head>
 
-<body>
+<body class='download_admin'>
+<header id="bar">
+<div class="header_stuff">
+<a href='/'>
+<img id='logo' src='../../images/logo-yellow.svg' />
+<h1 id='name'>Homeschool Co-op</h1>
+</a>
+</div>
+</header>
+<div class='admin_wrap'>
 <?php 
 
 include('header.php'); 
@@ -119,17 +133,23 @@ WHERE album = 'album'";
 $query = mysql_query($sql); 
 while($row = mysql_fetch_array($query))
   {
-  echo "There have been <b>" . $row['downloads'] . "</b> downloads of your album so far.<p>";
+  echo "<div class='admin_home'> There have been <b>" . $row['downloads'] . "</b> downloads of your album so far.<p>";
   }
   
-echo("Admin Options:
-<li><a href='?function=generate'>Generate <i>n</i> random codes</a>
-<li><a href='?function=custom'>Create custom codes</a>
-<li><a href='?function=showall'>Show All Codes/Remaining Downloads</a>
-<li><a href='?function=print'>Print download coupons</a><p>
+echo("
+
+<h1>Admin Options:</h1>
+<ul>
+<li><a href='?function=generate'>Generate <i>n</i> random codes</a></li>
+<li><a href='?function=custom'>Create custom codes</a></li>
+<li><a href='?function=showall'>Show All Codes/Remaining Downloads</a></li>
+</ul>
+</div>
+
 ");
 }
 
 ?>
+</div>
 </body>
 </html>

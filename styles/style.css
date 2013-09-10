@@ -54,12 +54,12 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 1, scss/gallery.scss */
+/* line 1, scss/_gallery.scss */
 .gallery .control-operator:target ~ .controls .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4); }
 
-/* line 20, scss/gallery.scss */
+/* line 20, scss/_gallery.scss */
 .gallery .control-button:first-of-type,
 .items-2 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1),
 .items-2 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2),
@@ -78,12 +78,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: white;
   color: rgba(255, 255, 255, 0.8); }
 
-/* line 25, scss/gallery.scss */
+/* line 25, scss/_gallery.scss */
 .gallery .item:first-of-type {
   position: static;
   opacity: 1; }
 
-/* line 30, scss/gallery.scss */
+/* line 30, scss/_gallery.scss */
 .gallery .item {
   position: absolute;
   top: 0;
@@ -96,11 +96,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
-/* line 43, scss/gallery.scss */
+/* line 43, scss/_gallery.scss */
 .gallery .control-operator {
   display: none; }
 
-/* line 47, scss/gallery.scss */
+/* line 47, scss/_gallery.scss */
 .gallery .control-operator:target ~ .item {
   pointer-events: none;
   opacity: 0;
@@ -109,7 +109,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation: none;
   animation: none; }
 
-/* line 56, scss/gallery.scss */
+/* line 56, scss/_gallery.scss */
 .gallery .control-operator:target ~ .controls .control-button {
   -moz-animation: none;
   -webkit-animation: none;
@@ -117,54 +117,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation: none; }
 
 @keyframes controlAnimation-2 {
-  /* line 64, scss/gallery.scss */
+  /* line 64, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 69, scss/gallery.scss */
+  /* line 69, scss/_gallery.scss */
   14.3%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 74, scss/gallery.scss */
+  /* line 74, scss/_gallery.scss */
   64.3%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @keyframes galleryAnimation-2 {
-  /* line 81, scss/gallery.scss */
+  /* line 81, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 85, scss/gallery.scss */
+  /* line 85, scss/_gallery.scss */
   14.3%, 50% {
     opacity: 1; }
 
-  /* line 89, scss/gallery.scss */
+  /* line 89, scss/_gallery.scss */
   64.3%, 100% {
     opacity: 0; } }
 
-/* line 94, scss/gallery.scss */
+/* line 94, scss/_gallery.scss */
 .items-2.autoplay .control-button {
   -moz-animation: controlAnimation-2 14s infinite;
   -webkit-animation: controlAnimation-2 14s infinite;
   -o-animation: controlAnimation-2 14s infinite;
   animation: controlAnimation-2 14s infinite; }
 
-/* line 101, scss/gallery.scss */
+/* line 101, scss/_gallery.scss */
 .items-2.autoplay .item {
   -moz-animation: galleryAnimation-2 14s infinite;
   -webkit-animation: galleryAnimation-2 14s infinite;
   -o-animation: galleryAnimation-2 14s infinite;
   animation: galleryAnimation-2 14s infinite; }
 
-/* line 108, scss/gallery.scss */
+/* line 108, scss/_gallery.scss */
 .items-2 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 114, scss/gallery.scss */
+/* line 114, scss/_gallery.scss */
 .items-2 .control-button:nth-of-type(1),
 .items-2 .item:nth-of-type(1) {
   -moz-animation-delay: -2s;
@@ -172,12 +172,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: -2s;
   animation-delay: -2s; }
 
-/* line 121, scss/gallery.scss */
+/* line 121, scss/_gallery.scss */
 .items-2 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 127, scss/gallery.scss */
+/* line 127, scss/_gallery.scss */
 .items-2 .control-button:nth-of-type(2),
 .items-2 .item:nth-of-type(2) {
   -moz-animation-delay: 5s;
@@ -186,54 +186,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation-delay: 5s; }
 
 @keyframes controlAnimation-3 {
-  /* line 135, scss/gallery.scss */
+  /* line 135, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 140, scss/gallery.scss */
+  /* line 140, scss/_gallery.scss */
   9.5%, 33.3% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 145, scss/gallery.scss */
+  /* line 145, scss/_gallery.scss */
   42.9%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @keyframes galleryAnimation-3 {
-  /* line 152, scss/gallery.scss */
+  /* line 152, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 156, scss/gallery.scss */
+  /* line 156, scss/_gallery.scss */
   9.5%, 33.3% {
     opacity: 1; }
 
-  /* line 160, scss/gallery.scss */
+  /* line 160, scss/_gallery.scss */
   42.9%, 100% {
     opacity: 0; } }
 
-/* line 165, scss/gallery.scss */
+/* line 165, scss/_gallery.scss */
 .items-3.autoplay .control-button {
   -moz-animation: controlAnimation-3 21s infinite;
   -webkit-animation: controlAnimation-3 21s infinite;
   -o-animation: controlAnimation-3 21s infinite;
   animation: controlAnimation-3 21s infinite; }
 
-/* line 172, scss/gallery.scss */
+/* line 172, scss/_gallery.scss */
 .items-3.autoplay .item {
   -moz-animation: galleryAnimation-3 21s infinite;
   -webkit-animation: galleryAnimation-3 21s infinite;
   -o-animation: galleryAnimation-3 21s infinite;
   animation: galleryAnimation-3 21s infinite; }
 
-/* line 179, scss/gallery.scss */
+/* line 179, scss/_gallery.scss */
 .items-3 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 185, scss/gallery.scss */
+/* line 185, scss/_gallery.scss */
 .items-3 .control-button:nth-of-type(1),
 .items-3 .item:nth-of-type(1) {
   -moz-animation-delay: -2s;
@@ -241,12 +241,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: -2s;
   animation-delay: -2s; }
 
-/* line 192, scss/gallery.scss */
+/* line 192, scss/_gallery.scss */
 .items-3 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 198, scss/gallery.scss */
+/* line 198, scss/_gallery.scss */
 .items-3 .control-button:nth-of-type(2),
 .items-3 .item:nth-of-type(2) {
   -moz-animation-delay: 5s;
@@ -254,12 +254,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: 5s;
   animation-delay: 5s; }
 
-/* line 205, scss/gallery.scss */
+/* line 205, scss/_gallery.scss */
 .items-3 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 211, scss/gallery.scss */
+/* line 211, scss/_gallery.scss */
 .items-3 .control-button:nth-of-type(3),
 .items-3 .item:nth-of-type(3) {
   -moz-animation-delay: 12s;
@@ -268,54 +268,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation-delay: 12s; }
 
 @keyframes controlAnimation-4 {
-  /* line 219, scss/gallery.scss */
+  /* line 219, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 224, scss/gallery.scss */
+  /* line 224, scss/_gallery.scss */
   7.1%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 229, scss/gallery.scss */
+  /* line 229, scss/_gallery.scss */
   32.1%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @keyframes galleryAnimation-4 {
-  /* line 236, scss/gallery.scss */
+  /* line 236, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 240, scss/gallery.scss */
+  /* line 240, scss/_gallery.scss */
   7.1%, 25% {
     opacity: 1; }
 
-  /* line 244, scss/gallery.scss */
+  /* line 244, scss/_gallery.scss */
   32.1%, 100% {
     opacity: 0; } }
 
-/* line 249, scss/gallery.scss */
+/* line 249, scss/_gallery.scss */
 .items-4.autoplay .control-button {
   -moz-animation: controlAnimation-4 28s infinite;
   -webkit-animation: controlAnimation-4 28s infinite;
   -o-animation: controlAnimation-4 28s infinite;
   animation: controlAnimation-4 28s infinite; }
 
-/* line 256, scss/gallery.scss */
+/* line 256, scss/_gallery.scss */
 .items-4.autoplay .item {
   -moz-animation: galleryAnimation-4 28s infinite;
   -webkit-animation: galleryAnimation-4 28s infinite;
   -o-animation: galleryAnimation-4 28s infinite;
   animation: galleryAnimation-4 28s infinite; }
 
-/* line 263, scss/gallery.scss */
+/* line 263, scss/_gallery.scss */
 .items-4 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 269, scss/gallery.scss */
+/* line 269, scss/_gallery.scss */
 .items-4 .control-button:nth-of-type(1),
 .items-4 .item:nth-of-type(1) {
   -moz-animation-delay: -2s;
@@ -323,12 +323,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: -2s;
   animation-delay: -2s; }
 
-/* line 276, scss/gallery.scss */
+/* line 276, scss/_gallery.scss */
 .items-4 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 282, scss/gallery.scss */
+/* line 282, scss/_gallery.scss */
 .items-4 .control-button:nth-of-type(2),
 .items-4 .item:nth-of-type(2) {
   -moz-animation-delay: 5s;
@@ -336,12 +336,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: 5s;
   animation-delay: 5s; }
 
-/* line 289, scss/gallery.scss */
+/* line 289, scss/_gallery.scss */
 .items-4 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 295, scss/gallery.scss */
+/* line 295, scss/_gallery.scss */
 .items-4 .control-button:nth-of-type(3),
 .items-4 .item:nth-of-type(3) {
   -moz-animation-delay: 12s;
@@ -349,12 +349,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: 12s;
   animation-delay: 12s; }
 
-/* line 302, scss/gallery.scss */
+/* line 302, scss/_gallery.scss */
 .items-4 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 308, scss/gallery.scss */
+/* line 308, scss/_gallery.scss */
 .items-4 .control-button:nth-of-type(4),
 .items-4 .item:nth-of-type(4) {
   -moz-animation-delay: 19s;
@@ -363,54 +363,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation-delay: 19s; }
 
 @keyframes controlAnimation-5 {
-  /* line 316, scss/gallery.scss */
+  /* line 316, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 321, scss/gallery.scss */
+  /* line 321, scss/_gallery.scss */
   5.7%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 326, scss/gallery.scss */
+  /* line 326, scss/_gallery.scss */
   25.7%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @keyframes galleryAnimation-5 {
-  /* line 333, scss/gallery.scss */
+  /* line 333, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 337, scss/gallery.scss */
+  /* line 337, scss/_gallery.scss */
   5.7%, 20% {
     opacity: 1; }
 
-  /* line 341, scss/gallery.scss */
+  /* line 341, scss/_gallery.scss */
   25.7%, 100% {
     opacity: 0; } }
 
-/* line 346, scss/gallery.scss */
+/* line 346, scss/_gallery.scss */
 .items-5.autoplay .control-button {
   -moz-animation: controlAnimation-5 35s infinite;
   -webkit-animation: controlAnimation-5 35s infinite;
   -o-animation: controlAnimation-5 35s infinite;
   animation: controlAnimation-5 35s infinite; }
 
-/* line 353, scss/gallery.scss */
+/* line 353, scss/_gallery.scss */
 .items-5.autoplay .item {
   -moz-animation: galleryAnimation-5 35s infinite;
   -webkit-animation: galleryAnimation-5 35s infinite;
   -o-animation: galleryAnimation-5 35s infinite;
   animation: galleryAnimation-5 35s infinite; }
 
-/* line 360, scss/gallery.scss */
+/* line 360, scss/_gallery.scss */
 .items-5 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 366, scss/gallery.scss */
+/* line 366, scss/_gallery.scss */
 .items-5 .control-button:nth-of-type(1),
 .items-5 .item:nth-of-type(1) {
   -moz-animation-delay: -2s;
@@ -418,12 +418,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: -2s;
   animation-delay: -2s; }
 
-/* line 373, scss/gallery.scss */
+/* line 373, scss/_gallery.scss */
 .items-5 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 379, scss/gallery.scss */
+/* line 379, scss/_gallery.scss */
 .items-5 .control-button:nth-of-type(2),
 .items-5 .item:nth-of-type(2) {
   -moz-animation-delay: 5s;
@@ -431,12 +431,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: 5s;
   animation-delay: 5s; }
 
-/* line 386, scss/gallery.scss */
+/* line 386, scss/_gallery.scss */
 .items-5 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 392, scss/gallery.scss */
+/* line 392, scss/_gallery.scss */
 .items-5 .control-button:nth-of-type(3),
 .items-5 .item:nth-of-type(3) {
   -moz-animation-delay: 12s;
@@ -444,12 +444,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: 12s;
   animation-delay: 12s; }
 
-/* line 399, scss/gallery.scss */
+/* line 399, scss/_gallery.scss */
 .items-5 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 405, scss/gallery.scss */
+/* line 405, scss/_gallery.scss */
 .items-5 .control-button:nth-of-type(4),
 .items-5 .item:nth-of-type(4) {
   -moz-animation-delay: 19s;
@@ -457,12 +457,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-animation-delay: 19s;
   animation-delay: 19s; }
 
-/* line 412, scss/gallery.scss */
+/* line 412, scss/_gallery.scss */
 .items-5 .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
   pointer-events: auto;
   opacity: 1; }
 
-/* line 418, scss/gallery.scss */
+/* line 418, scss/_gallery.scss */
 .items-5 .control-button:nth-of-type(5),
 .items-5 .item:nth-of-type(5) {
   -moz-animation-delay: 26s;
@@ -471,359 +471,359 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation-delay: 26s; }
 
 @-moz-keyframes controlAnimation-2 {
-  /* line 426, scss/gallery.scss */
+  /* line 426, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 431, scss/gallery.scss */
+  /* line 431, scss/_gallery.scss */
   14.3%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 436, scss/gallery.scss */
+  /* line 436, scss/_gallery.scss */
   64.3%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-webkit-keyframes controlAnimation-2 {
-  /* line 443, scss/gallery.scss */
+  /* line 443, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 448, scss/gallery.scss */
+  /* line 448, scss/_gallery.scss */
   14.3%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 453, scss/gallery.scss */
+  /* line 453, scss/_gallery.scss */
   64.3%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-o-keyframes controlAnimation-2 {
-  /* line 460, scss/gallery.scss */
+  /* line 460, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 465, scss/gallery.scss */
+  /* line 465, scss/_gallery.scss */
   14.3%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 470, scss/gallery.scss */
+  /* line 470, scss/_gallery.scss */
   64.3%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-moz-keyframes galleryAnimation-2 {
-  /* line 477, scss/gallery.scss */
+  /* line 477, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 481, scss/gallery.scss */
+  /* line 481, scss/_gallery.scss */
   14.3%, 50% {
     opacity: 1; }
 
-  /* line 485, scss/gallery.scss */
+  /* line 485, scss/_gallery.scss */
   64.3%, 100% {
     opacity: 0; } }
 
 @-webkit-keyframes galleryAnimation-2 {
-  /* line 491, scss/gallery.scss */
+  /* line 491, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 495, scss/gallery.scss */
+  /* line 495, scss/_gallery.scss */
   14.3%, 50% {
     opacity: 1; }
 
-  /* line 499, scss/gallery.scss */
+  /* line 499, scss/_gallery.scss */
   64.3%, 100% {
     opacity: 0; } }
 
 @-o-keyframes galleryAnimation-2 {
-  /* line 505, scss/gallery.scss */
+  /* line 505, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 509, scss/gallery.scss */
+  /* line 509, scss/_gallery.scss */
   14.3%, 50% {
     opacity: 1; }
 
-  /* line 513, scss/gallery.scss */
+  /* line 513, scss/_gallery.scss */
   64.3%, 100% {
     opacity: 0; } }
 
 @-moz-keyframes controlAnimation-3 {
-  /* line 519, scss/gallery.scss */
+  /* line 519, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 524, scss/gallery.scss */
+  /* line 524, scss/_gallery.scss */
   9.5%, 33.3% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 529, scss/gallery.scss */
+  /* line 529, scss/_gallery.scss */
   42.9%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-webkit-keyframes controlAnimation-3 {
-  /* line 536, scss/gallery.scss */
+  /* line 536, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 541, scss/gallery.scss */
+  /* line 541, scss/_gallery.scss */
   9.5%, 33.3% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 546, scss/gallery.scss */
+  /* line 546, scss/_gallery.scss */
   42.9%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-o-keyframes controlAnimation-3 {
-  /* line 553, scss/gallery.scss */
+  /* line 553, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 558, scss/gallery.scss */
+  /* line 558, scss/_gallery.scss */
   9.5%, 33.3% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 563, scss/gallery.scss */
+  /* line 563, scss/_gallery.scss */
   42.9%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-moz-keyframes galleryAnimation-3 {
-  /* line 570, scss/gallery.scss */
+  /* line 570, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 574, scss/gallery.scss */
+  /* line 574, scss/_gallery.scss */
   9.5%, 33.3% {
     opacity: 1; }
 
-  /* line 578, scss/gallery.scss */
+  /* line 578, scss/_gallery.scss */
   42.9%, 100% {
     opacity: 0; } }
 
 @-webkit-keyframes galleryAnimation-3 {
-  /* line 584, scss/gallery.scss */
+  /* line 584, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 588, scss/gallery.scss */
+  /* line 588, scss/_gallery.scss */
   9.5%, 33.3% {
     opacity: 1; }
 
-  /* line 592, scss/gallery.scss */
+  /* line 592, scss/_gallery.scss */
   42.9%, 100% {
     opacity: 0; } }
 
 @-o-keyframes galleryAnimation-3 {
-  /* line 598, scss/gallery.scss */
+  /* line 598, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 602, scss/gallery.scss */
+  /* line 602, scss/_gallery.scss */
   9.5%, 33.3% {
     opacity: 1; }
 
-  /* line 606, scss/gallery.scss */
+  /* line 606, scss/_gallery.scss */
   42.9%, 100% {
     opacity: 0; } }
 
 @-moz-keyframes controlAnimation-4 {
-  /* line 612, scss/gallery.scss */
+  /* line 612, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 617, scss/gallery.scss */
+  /* line 617, scss/_gallery.scss */
   7.1%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 622, scss/gallery.scss */
+  /* line 622, scss/_gallery.scss */
   32.1%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-webkit-keyframes controlAnimation-4 {
-  /* line 629, scss/gallery.scss */
+  /* line 629, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 634, scss/gallery.scss */
+  /* line 634, scss/_gallery.scss */
   7.1%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 639, scss/gallery.scss */
+  /* line 639, scss/_gallery.scss */
   32.1%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-o-keyframes controlAnimation-4 {
-  /* line 646, scss/gallery.scss */
+  /* line 646, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 651, scss/gallery.scss */
+  /* line 651, scss/_gallery.scss */
   7.1%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 656, scss/gallery.scss */
+  /* line 656, scss/_gallery.scss */
   32.1%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-moz-keyframes galleryAnimation-4 {
-  /* line 663, scss/gallery.scss */
+  /* line 663, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 667, scss/gallery.scss */
+  /* line 667, scss/_gallery.scss */
   7.1%, 25% {
     opacity: 1; }
 
-  /* line 671, scss/gallery.scss */
+  /* line 671, scss/_gallery.scss */
   32.1%, 100% {
     opacity: 0; } }
 
 @-webkit-keyframes galleryAnimation-4 {
-  /* line 677, scss/gallery.scss */
+  /* line 677, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 681, scss/gallery.scss */
+  /* line 681, scss/_gallery.scss */
   7.1%, 25% {
     opacity: 1; }
 
-  /* line 685, scss/gallery.scss */
+  /* line 685, scss/_gallery.scss */
   32.1%, 100% {
     opacity: 0; } }
 
 @-o-keyframes galleryAnimation-4 {
-  /* line 691, scss/gallery.scss */
+  /* line 691, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 695, scss/gallery.scss */
+  /* line 695, scss/_gallery.scss */
   7.1%, 25% {
     opacity: 1; }
 
-  /* line 699, scss/gallery.scss */
+  /* line 699, scss/_gallery.scss */
   32.1%, 100% {
     opacity: 0; } }
 
 @-moz-keyframes controlAnimation-5 {
-  /* line 705, scss/gallery.scss */
+  /* line 705, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 710, scss/gallery.scss */
+  /* line 710, scss/_gallery.scss */
   5.7%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 715, scss/gallery.scss */
+  /* line 715, scss/_gallery.scss */
   25.7%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-webkit-keyframes controlAnimation-5 {
-  /* line 722, scss/gallery.scss */
+  /* line 722, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 727, scss/gallery.scss */
+  /* line 727, scss/_gallery.scss */
   5.7%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 732, scss/gallery.scss */
+  /* line 732, scss/_gallery.scss */
   25.7%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-o-keyframes controlAnimation-5 {
-  /* line 739, scss/gallery.scss */
+  /* line 739, scss/_gallery.scss */
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); }
 
-  /* line 744, scss/gallery.scss */
+  /* line 744, scss/_gallery.scss */
   5.7%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8); }
 
-  /* line 749, scss/gallery.scss */
+  /* line 749, scss/_gallery.scss */
   25.7%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4); } }
 
 @-moz-keyframes galleryAnimation-5 {
-  /* line 756, scss/gallery.scss */
+  /* line 756, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 760, scss/gallery.scss */
+  /* line 760, scss/_gallery.scss */
   5.7%, 20% {
     opacity: 1; }
 
-  /* line 764, scss/gallery.scss */
+  /* line 764, scss/_gallery.scss */
   25.7%, 100% {
     opacity: 0; } }
 
 @-webkit-keyframes galleryAnimation-5 {
-  /* line 770, scss/gallery.scss */
+  /* line 770, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 774, scss/gallery.scss */
+  /* line 774, scss/_gallery.scss */
   5.7%, 20% {
     opacity: 1; }
 
-  /* line 778, scss/gallery.scss */
+  /* line 778, scss/_gallery.scss */
   25.7%, 100% {
     opacity: 0; } }
 
 @-o-keyframes galleryAnimation-5 {
-  /* line 784, scss/gallery.scss */
+  /* line 784, scss/_gallery.scss */
   0% {
     opacity: 0; }
 
-  /* line 788, scss/gallery.scss */
+  /* line 788, scss/_gallery.scss */
   5.7%, 20% {
     opacity: 1; }
 
-  /* line 792, scss/gallery.scss */
+  /* line 792, scss/_gallery.scss */
   25.7%, 100% {
     opacity: 0; } }
 
-/* line 3, scss/gallery.theme.scss */
+/* line 3, scss/_gallery.theme.scss */
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4); }
 
-/* line 8, scss/gallery.theme.scss */
+/* line 8, scss/_gallery.theme.scss */
 .gallery .control-button:hover {
   color: white;
   color: rgba(255, 255, 255, 0.8); }
@@ -831,38 +831,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*
 	Theme controls how everything looks in Gallery CSS.
 */
-/* line 16, scss/gallery.theme.scss */
+/* line 16, scss/_gallery.theme.scss */
 .gallery {
   position: relative;
   margin-top: 1em; }
 
-/* line 21, scss/gallery.theme.scss */
+/* line 21, scss/_gallery.theme.scss */
 .gallery .item {
   height: auto;
   overflow: hidden;
   text-align: center; }
-  /* line 25, scss/gallery.theme.scss */
+  /* line 25, scss/_gallery.theme.scss */
   .gallery .item img {
     position: relative;
     width: 80%;
     z-index: -1; }
     @media (max-width: 900px) {
-      /* line 25, scss/gallery.theme.scss */
+      /* line 25, scss/_gallery.theme.scss */
       .gallery .item img {
         width: 90%; } }
     @media (max-width: 560px) {
-      /* line 25, scss/gallery.theme.scss */
+      /* line 25, scss/_gallery.theme.scss */
       .gallery .item img {
         width: 100%; } }
 
-/* line 37, scss/gallery.theme.scss */
+/* line 37, scss/_gallery.theme.scss */
 .gallery .controls {
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center; }
 
-/* line 43, scss/gallery.theme.scss */
+/* line 43, scss/_gallery.theme.scss */
 .gallery .control-button {
   display: inline-block;
   margin: 0 0.02em;
