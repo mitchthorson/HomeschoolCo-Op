@@ -1,5 +1,8 @@
 @import "compass/css3";
 @import "variables.scss";
+html{
+	background-color: $light-gray;
+}
 .download_admin{
 	background-color: $light-gray;
 	height: 100%;
