@@ -418,11 +418,10 @@ hr{
 	color: white;
 	position: relative;
 	z-index: 1;
-	margin-top: 8em;
 	top: 6em;
 	border-top: solid 12px $light-gray;
 	width: 60%;
-	margin: 0 auto 10em auto;
+	margin: 0 auto 12em auto;
 	text-align: center;
 	background-color: $dark-gray;
 	padding: 4em 2em;
@@ -562,11 +561,11 @@ input.download_button {
 display: block;
 width: 30%;
 margin: 2em auto;
-background-color: $dark-gray;
+background-color: $yellow;
 padding: 1em;
 text-align: center;
 text-align: center;
-color: #fff;
+color: $dark-gray;
 text-decoration: none;
 text-transform: uppercase;
 border: none;
