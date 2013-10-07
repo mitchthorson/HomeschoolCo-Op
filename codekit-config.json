@@ -252,17 +252,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/images\/apple-touch-114.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/apple-touch-114.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/apple-touch-114.png",
-      "initialSize" : 1511,
-      "fileType" : 8192
-    },
     "\/images\/apple-touch-72.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -272,6 +261,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/images\/apple-touch-72.png",
       "initialSize" : 1358,
+      "fileType" : 8192
+    },
+    "\/images\/apple-touch-114.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/apple-touch-114.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/apple-touch-114.png",
+      "initialSize" : 1511,
       "fileType" : 8192
     },
     "\/download\/admin\/header.php" : {
