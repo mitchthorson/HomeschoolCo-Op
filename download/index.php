@@ -26,7 +26,7 @@
    </div>
 </header>
 <div id="dload_content">
-  <h3>Thanks for supporting us! Please enter your download code below to get your copy of the album.</h3>
+  <h2>Thanks for supporting us!</h2> <h3>Please enter your download code below to get your copy of the album.</h3>
   
 <form id='form1' name='form1' method='GET' action='download.php'>
     <div class='superlabel'>
