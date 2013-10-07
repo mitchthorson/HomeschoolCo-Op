@@ -566,6 +566,10 @@ color: $dark-gray;
 text-decoration: none;
 text-transform: uppercase;
 border: none;
+&:hover{
+	cursor: pointer;
+	background-color: $light-gray;
+}
 @include box-shadow(rgba(50, 50, 50,.5) 0 0 10px);
 	@media (max-width: $baby-bear){
 		width: 20%;

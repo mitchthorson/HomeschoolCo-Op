@@ -111,17 +111,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/photos\/1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/photos\/1.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/photos\/1.jpg",
-      "initialSize" : 8217,
-      "fileType" : 4096
-    },
     "\/styles\/scss\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -133,6 +122,17 @@
       "outputAbbreviatedPath" : "\/styles\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/photos\/1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/photos\/1.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/photos\/1.jpg",
+      "initialSize" : 8217,
+      "fileType" : 4096
     },
     "\/download\/admin\/vars.php" : {
       "ignoreWasSetByUser" : 0,
