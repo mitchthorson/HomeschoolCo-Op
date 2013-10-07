@@ -416,7 +416,7 @@ hr{
 	//top: 6em;
 	border-top: solid 12px $light-gray;
 	width: 60%;
-	margin: 0 auto 6em auto;
+	margin: 0 auto 10em auto;
 	text-align: center;
 	background-color: $dark-gray;
 	padding: 4em 2em;
@@ -490,12 +490,13 @@ footer{
 footer#download_footer{
 	
 	border-top: 12px $light-gray solid;
-	@media (max-width: $papa-bear){
+	//@media (max-width: $papa-bear){
 		position: absolute;
 		bottom: 0;
 		right: 0;
 		left: 0;
-	}
+		height: 4em;
+	//}
 	
 }
 
