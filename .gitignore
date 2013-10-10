@@ -13,3 +13,6 @@
 /.sass-cache/861619ae1548d6387637b76d708629be3c5a5e4d/_utilities.scssc
 /.sass-cache/e36ffd1fc5c9f01a57cee639cdba68282592fd69/
 /.sass-cache/
+*.DS_Store
+/images/.DS_Store
+/styles/.DS_Store

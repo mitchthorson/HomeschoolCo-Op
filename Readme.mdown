@@ -1,3 +1,5 @@
 #Homeschool Co-op
 
 This project is a webpage for the band homeschool co-op. The goal is to have an engaging web prescence that allows streaming of the band's music, as well as downloading the album with provided download codes.
+
+Live site at [homeschoolco-op.me](http://homeschoolco-op.me/)
